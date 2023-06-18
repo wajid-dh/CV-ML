@@ -1,6 +1,8 @@
 " to take camera picture if not acessible otherwise"
 
+# import the library
 import cv2
+# video capture , test is name of window
 cam = cv2.VideoCapture(0)
 cv2.namedWindow("test")
 
