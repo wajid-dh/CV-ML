@@ -5,7 +5,7 @@ import cv2
 # video capture , test is name of window
 cam = cv2.VideoCapture(0)
 cv2.namedWindow("test")
-cv2.namedWindow("test2")
+cv2.namedWindow("test222")
 
 img_counter = 0
 
@@ -19,7 +19,7 @@ while True:
     k = cv2.waitKey(1)
     if k%256 == 27:
         # ESC pressed
-        print("Escape hit, closing...")
+        print("Escape hit, closing the window")
         break
     elif k%256 == 32:
         # SPACE pressed
