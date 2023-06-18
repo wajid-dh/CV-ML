@@ -5,6 +5,7 @@ import cv2
 # video capture , test is name of window
 cam = cv2.VideoCapture(0)
 cv2.namedWindow("test")
+cv2.namedWindow("test2")
 
 img_counter = 0
 
