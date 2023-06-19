@@ -5,9 +5,8 @@ import cv2
 # video capture , test is name of window
 cam = cv2.VideoCapture(0)
 cv2.namedWindow("test")
-cv2.namedWindow("test3")
  
-img_counter = 0
+img_counter = 3
 
 while True:
     ret, frame = cam.read()
